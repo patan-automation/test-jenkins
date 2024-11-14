@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building for Prod environment again"
+                echo "Building for Prod environment again now"
                 // Add build steps here
             }
         }
