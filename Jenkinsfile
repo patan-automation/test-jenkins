@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building for Dev environment"
+                echo "Building for Dev environment again"
                 // Add build steps here
             }
         }
