@@ -9,8 +9,10 @@ pipeline {
         }
         stage('Deploy to Dev') {
             steps {
-                echo "Deploying to Dev now"
-                // Add deployment steps, e.g., `kubectl` for Dev environment
+                build job: 'cd-pipeline-jenkins', // Replace with your target pipeline's job name
+                      parameters: [
+                          string(name: 'GIT_BRANCH', value: 'dev') // Replace with desired branch
+                      ]
             }
         }
     }
