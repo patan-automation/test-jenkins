@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy to Dev') {
             steps {
-                echo "Deploying to Dev"
+                echo "Deploying to Dev now"
                 // Add deployment steps, e.g., `kubectl` for Dev environment
             }
         }
