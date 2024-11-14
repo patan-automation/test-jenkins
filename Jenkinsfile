@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building for Prod environment again now"
+                echo "Building for Prod environment again now trigger"
                 // Add build steps here
             }
         }
