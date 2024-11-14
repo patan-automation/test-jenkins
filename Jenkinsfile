@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy to Prod') {
             steps {
-                echo "Deploying to Prod"
+                echo "Deploying to Prod now"
                 // Add deployment steps, e.g., `kubectl` for Prod environment
             }
         }
