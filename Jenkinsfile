@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building for Prod environment"
+                echo "Building for Dev environment"
                 // Add build steps here
             }
         }
-        stage('Deploy to Prod') {
+        stage('Deploy to Dev') {
             steps {
-                echo "Deploying to Prod"
-                // Add deployment steps, e.g., `kubectl` for Prod environment
+                echo "Deploying to Dev"
+                // Add deployment steps, e.g., `kubectl` for Dev environment
             }
         }
     }
